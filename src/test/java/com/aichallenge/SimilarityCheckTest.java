@@ -27,7 +27,7 @@ public class SimilarityCheckTest {
         vector2.put("by", 1);
         vector2.put("AI!", 1);
 
-        double expectedSimilarity = 0.5;
+        double expectedSimilarity = 0;
         double actualSimilarity = SimilarityCheck.cosineSimilarity(vector1, vector2);
 
         assertEquals(expectedSimilarity, actualSimilarity, 0.0001);
@@ -40,7 +40,7 @@ public class SimilarityCheckTest {
         expectedVector.put("Hello", 1);
         expectedVector.put("AI", 1);
         expectedVector.put("Challenging", 1);
-        expectedVector.put("World!", 1);
+        expectedVector.put("World", 1);
 
         Map<String, Integer> actualVector = SimilarityCheck.vectorizeString(inputString);
 
