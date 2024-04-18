@@ -88,4 +88,12 @@ Premissas da implementação:
 3. DeterminarSimilaridade como microsserviço com deploy em AKS, e exportado via REST API.
 4. Resultados da execução de DeterminarSimilaridade deve ser persistido em base gerenciada na Azure.
 4. ListarHistorico como microsserviço com deploy em  AKS, e exportado via REST API.
+5. O código deve estar documentado com comentários
+6. Deve incluir testes unitários JUnit
  
+## Avaliação
+
+### Inspeção
+### Tempo de desenvolvimento
+### Dev Survey
+
